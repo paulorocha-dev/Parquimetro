@@ -1,0 +1,153 @@
+/* CSS Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    line-height: 1.5;
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 150px 600px;
+    border: 2px solid rgb(72, 172, 59);
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);  
+    color: #333;
+    font-size: 16px;
+    text-align: center;
+    font-weight: 400;
+}   
+
+h1 {
+    color: rgb(72, 172, 59);
+    font-size: 32px;
+    margin-bottom: 20px;
+    font-weight: 700;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
+    text-align: center;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);    
+    width: 100%;
+}
+
+input[type="number"] {
+    width: 300px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1.2em;
+    color: #333;
+    background-color: rgba(72, 172, 59, 0.05);
+    transition: border-color 0.3s, box-shadow 0.3s;
+    font-weight: 400;
+    font-family: Arial, sans-serif;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    outline: none;
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 1.2em;
+}
+
+input[type="number"]:focus {
+    border-color: rgb(72, 172, 59);
+    outline: none;
+    box-shadow: 0 0 5px rgb(72, 172, 59);
+}
+
+label {
+    font-size: 20px;
+    color: rgb(72, 172, 59);
+    margin-bottom: 10px;
+    font-weight: 700;
+}
+
+button[type="submit"] {
+    background-color: rgb(72, 172, 59);
+    color: #fff;
+    padding: 10px 20px;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button[type="submit"]:hover {
+    background-color: #5cb85c;
+}
+
+button[type="submit"]:active {
+    background-color: #4cae4c;
+}
+
+#resultados {
+    min-height: 40px;
+    margin-top: 10px;
+    padding: 10px 10px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    text-align: center;
+    font-size: 1.2em;
+    color: rgb(72, 172, 59);
+    font-weight: 700;
+    font-family: Arial, sans-serif;
+}
+
+p {
+    display: inline;
+    margin: 0 60px;
+}
+
+th {
+    background-color: rgb(72, 172, 59);
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    overflow: hidden;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+    text-align: center;
+}
+
+table tr {
+    border-bottom: 1px solid #ddd;
+}
+
+table tr:last-child {
+   border-bottom: none;
+}
+
+table th:first-child, table td:first-child {
+    border-right: 1px solid rgb(72, 172, 59);
+}
+
+td[id=tituloValor], [id=tituloTempo] {
+    font-weight: bold;
+}
